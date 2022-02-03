@@ -11,6 +11,9 @@ public class SpringbootApplicationTestingApplication {
 	public static void main(String[] args) {
 		ApplicationContext ac = SpringApplication.run(SpringbootApplicationTestingApplication.class, args);
 	
+		//this is my prior task for today
+		// i have complete this by EOD
+		
 		((ConfigurableApplicationContext) ac).close();
 	
 	}
